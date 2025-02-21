@@ -1,7 +1,5 @@
 # Mangement_Merchandize_with_SpingBoot_Microservices
 ## 📌 Giới Thiệu
-
-Dự án này là một hệ thống thương mại điện tử được xây dựng theo **kiến trúc microservices**, sử dụng **Spring Boot** cho backend và **Angular** cho frontend. Hệ thống được thiết kế để đảm bảo **hiệu suất cao, mở rộng linh hoạt và khả năng chịu lỗi tốt**.
 ![image](https://github.com/ducbn/Mangement_Merchandize_with_SpingBoot_Microservices/blob/main/img.png)
 ---
 
