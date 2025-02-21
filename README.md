@@ -62,9 +62,3 @@ Hệ thống bao gồm các **microservices** chính:
 
 ---
 
-## 🏗 Cách Chạy Dự Án
-
-### **1️⃣ Clone repository**
-```bash
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
