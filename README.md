@@ -1,9 +1,9 @@
 # Mangement_Merchandize_with_SpingBoot_Microservices
-##Giới Thiệu
+## Giới Thiệu
 ![image](https://github.com/ducbn/Mangement_Merchandize_with_SpingBoot_Microservices/blob/main/img.png)
 ---
 
-##Công Nghệ Sử Dụng
+## Công Nghệ Sử Dụng
 
 ### **Frontend**
 - **Angular / TypeScript** - Xây dựng giao diện người dùng.
@@ -26,7 +26,7 @@
 
 ---
 
-## ⚙️ Kiến Trúc Hệ Thống
+## Kiến Trúc Hệ Thống
 
 Hệ thống bao gồm các **microservices** chính:
 
@@ -45,20 +45,20 @@ Hệ thống bao gồm các **microservices** chính:
 5️ **Inventory Service**  
    - Kiểm tra số lượng tồn kho của sản phẩm.
 
-6️⃣ **Notification Service**  
-   📩 Gửi email thông báo khi có đơn hàng mới, sử dụng **Kafka**.
+6️ **Notification Service**  
+   - Gửi email thông báo khi có đơn hàng mới, sử dụng **Kafka**.
 
 ---
 
-## 🔄 Luồng Hoạt Động Chính
+## Luồng Hoạt Động Chính
 
-1️⃣ Người dùng truy cập **Frontend** để đặt hàng.  
-2️⃣ **API Gateway** nhận request và chuyển đến service phù hợp.  
-3️⃣ Khi đặt hàng:  
+1️ Người dùng truy cập **Frontend** để đặt hàng.  
+2️ **API Gateway** nhận request và chuyển đến service phù hợp.  
+3️ Khi đặt hàng:  
    - **Order Service** kiểm tra kho hàng thông qua **Inventory Service**.  
    - Nếu có hàng, đơn hàng được lưu vào **MySQL**.  
    - **Kafka** gửi sự kiện đến **Notification Service** để gửi email xác nhận.  
-4️⃣ Hệ thống sử dụng **Resilience4J** để đảm bảo hoạt động ổn định.  
+4️ Hệ thống sử dụng **Resilience4J** để đảm bảo hoạt động ổn định.  
 
 ---
 
