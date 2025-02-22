@@ -1,28 +1,28 @@
 # Mangement_Merchandize_with_SpingBoot_Microservices
-## 📌 Giới Thiệu
+##Giới Thiệu
 ![image](https://github.com/ducbn/Mangement_Merchandize_with_SpingBoot_Microservices/blob/main/img.png)
 ---
 
-## 🛠 Công Nghệ Sử Dụng
+##Công Nghệ Sử Dụng
 
 ### **Frontend**
-- ✅ **Angular / TypeScript** - Xây dựng giao diện người dùng.
-- ✅ **HTML, CSS, Tailwind CSS** - Thiết kế giao diện hiện đại, tối ưu hiển thị.
+- **Angular / TypeScript** - Xây dựng giao diện người dùng.
+- **HTML, CSS, Tailwind CSS** - Thiết kế giao diện hiện đại, tối ưu hiển thị.
 
 ### **Backend**
-- ✅ **Spring Boot** - Xây dựng hệ thống microservices.
-- ✅ **API Gateway** - Điều phối request giữa frontend và backend.
-- ✅ **Keycloak** - Hệ thống xác thực và phân quyền người dùng.
-- ✅ **Resilience4J** - Đảm bảo hệ thống chịu lỗi tốt.
-- ✅ **Apache Kafka** - Hỗ trợ giao tiếp bất đồng bộ giữa các service.
+- **Spring Boot** - Xây dựng hệ thống microservices.
+- **API Gateway** - Điều phối request giữa frontend và backend.
+- **Keycloak** - Hệ thống xác thực và phân quyền người dùng.
+- **Resilience4J** - Đảm bảo hệ thống chịu lỗi tốt.
+- **Apache Kafka** - Hỗ trợ giao tiếp bất đồng bộ giữa các service.
 
 ### **Cơ Sở Dữ Liệu**
-- ✅ **MySQL** - Lưu trữ dữ liệu của Order Service, Inventory Service.
-- ✅ **MongoDB** - Lưu trữ dữ liệu của Product Service.
+- **MySQL** - Lưu trữ dữ liệu của Order Service, Inventory Service.
+- **MongoDB** - Lưu trữ dữ liệu của Product Service.
 
 ### **Giám Sát & Kiểm Tra**
-- ✅ **Prometheus, Grafana, Loki, Tempo** - Thu thập logs, giám sát hiệu suất hệ thống.
-- ✅ **OpenTelemetry** - Giám sát hiệu năng ứng dụng.
+- **Prometheus, Grafana, Loki, Tempo** - Thu thập logs, giám sát hiệu suất hệ thống.
+- **OpenTelemetry** - Giám sát hiệu năng ứng dụng.
 
 ---
 
@@ -30,20 +30,20 @@
 
 Hệ thống bao gồm các **microservices** chính:
 
-1️⃣ **API Gateway**  
-   📌 Điều phối request từ frontend đến backend.
+1️ **API Gateway**  
+   - Điều phối request từ frontend đến backend.
 
-2️⃣ **Authen Server (Keycloak)**  
-   🔒 Xác thực và quản lý quyền truy cập người dùng.
+2️ **Authen Server (Keycloak)**  
+   - Xác thực và quản lý quyền truy cập người dùng.
 
-3️⃣ **Product Service**  
-   📦 Quản lý thông tin sản phẩm, sử dụng **MongoDB**.
+3️ **Product Service**  
+   - Quản lý thông tin sản phẩm, sử dụng **MongoDB**.
 
-4️⃣ **Order Service**  
-   🛒 Xử lý đơn hàng, lưu trữ dữ liệu trong **MySQL**.
+4️ **Order Service**  
+   - Xử lý đơn hàng, lưu trữ dữ liệu trong **MySQL**.
 
-5️⃣ **Inventory Service**  
-   📊 Kiểm tra số lượng tồn kho của sản phẩm.
+5️ **Inventory Service**  
+   - Kiểm tra số lượng tồn kho của sản phẩm.
 
 6️⃣ **Notification Service**  
    📩 Gửi email thông báo khi có đơn hàng mới, sử dụng **Kafka**.
