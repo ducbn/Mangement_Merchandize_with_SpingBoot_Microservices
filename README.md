@@ -1,4 +1,4 @@
-# Mangement_Merchandize_with_SpingBoot_Microservices
+# Mangement Merchandize with SpingBoot Microservices
 ## Giới Thiệu
 ![image](https://github.com/ducbn/Mangement_Merchandize_with_SpingBoot_Microservices/blob/main/img.png)
 ---
